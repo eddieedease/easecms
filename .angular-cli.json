@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "../src/inc/css/public.css",
+        "../src/inc/css/style.css",
+        "../src/inc/css/skin.css",
+        "../src/inc/css/notie.css",
+        "../src/inc/css/responsive.css",
+        "../src/inc/css/custom.css"
       ],
-      "scripts": [],
+      "scripts": [
+        
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
