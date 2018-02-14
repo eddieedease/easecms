@@ -19,15 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../src/inc/css/public.css",
-        "../src/inc/css/style.css",
-        "../src/inc/css/skin.css",
-        "../src/inc/css/notie.css",
-        "../src/inc/css/responsive.css",
-        "../src/inc/css/custom.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.css"
       ],
       "scripts": [
-        
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
