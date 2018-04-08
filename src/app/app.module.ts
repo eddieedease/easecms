@@ -7,12 +7,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { SiteComponent } from './site/site.component';
 import { AdminComponent } from './admin/admin.component';
+import { Site2Component } from './site2/site2.component';
 
 const appRoutes: Routes = [
   { path: 'site', component: SiteComponent },
+  { path: 'site2', component: Site2Component },
   { path: 'admin', component: AdminComponent },
   { path: '',
-  redirectTo: 'admin',
+  redirectTo: 'site',
   pathMatch: 'full'
 },
   { path: '**', component: SiteComponent }
@@ -22,7 +24,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     SiteComponent,
-    AdminComponent
+    AdminComponent,
+    Site2Component
   ],
   imports: [
     BrowserModule,
